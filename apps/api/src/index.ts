@@ -9,6 +9,7 @@ import { drizzle } from "drizzle-orm/node-postgres";
 
 import { errorHandler } from "./middleware/errorHandler";
 import { notFound } from "./middleware/notFound";
+import { users } from "./db/schema";
 
 dotenv.config();
 
